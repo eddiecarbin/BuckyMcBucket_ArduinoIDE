@@ -19,7 +19,7 @@ InSessionState::InSessionState()
 
 void InSessionState::enter(BuckeyContext &context)
 {
-    // Serial.print("Entering State In Session: ");
+    Serial.println("Entering State In Session: ");
     // Serial.println(BuckeyContext::currentBucketState);
 
     // delayTimer->setTimer(7);
@@ -34,6 +34,8 @@ void InSessionState::enter(BuckeyContext &context)
 
         // play intro tp mew sessond sound/
         String soundFileId = pickedup[rand() % 2];
+        Serial.print("Playing sound: ");
+        Serial.println(soundFileId);
         playSound(soundFileId);
     }
     else

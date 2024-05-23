@@ -38,7 +38,7 @@ private:
         //param vol 0-30
     int volumeStates[4] = {2, 10, 20, 29};
 
-    int state = 2;
+    int state = 3;
 
 
 public:

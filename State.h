@@ -67,7 +67,7 @@ public:
 
     float playSound(String soundName)
     {
-        return 0; //SoundPlayer.playSoundByName(soundName, BuckeyContext::currentLanguage);
+        return SoundPlayer.playSoundByName(soundName, BuckeyContext::currentLanguage);
     };
 };
 #endif

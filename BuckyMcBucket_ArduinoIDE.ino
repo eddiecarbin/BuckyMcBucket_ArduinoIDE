@@ -93,7 +93,7 @@ void setup()
 
   /*Set volume to 20
   param vol 0-30*/
-  DF1201S.setVol(/*VOL = */ 20);
+  DF1201S.setVol(/*VOL = */ 29);
   DF1201S.switchFunction(DFRobot_DF1201S::MUSIC);
   // DF1201S.setPlayMode(DFRobot_DF1201S::SINGLE);
   DF1201S.enableAMP();
